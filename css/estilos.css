@@ -1,0 +1,623 @@
+/*Header*/
+#agrupar {
+width: 1240px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+li{  list-style-type: none;}
+.centrado{
+  margin-left: 40%;
+}
+.inline-block{
+  float: none;
+  display: inline-block;
+}
+
+.espacioIzquierda{
+  margin-left: 1em;
+  color: white;
+}
+.izquierda{
+  margin-left: 50px;
+}
+.derecha{
+  left: 0px;
+  margin-right: 50px;
+}
+.quitar{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.parar{  clear: both;}
+.espacio-arriba{
+  margin-top:200px;
+}
+.text_color{
+  color: white;
+}
+.Notebook {
+  font-size: 2.5em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1;
+  position: absolute;
+  text-align: left;
+  z-index: 94;
+  padding-top: 3%;
+}
+.menu {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  position: absolute;
+  padding-top: 5%;
+  z-index: 93;
+}
+.titulo1 {
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1;
+  padding-top: 50px;
+  z-index: 92;
+}
+.texto1 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1.2;
+  z-index: 91;
+  width: 450px;
+  margin: 20px auto;
+}
+.Button {
+  top: 0px;
+  width: auto;
+  height: auto;
+  z-index: 90;
+}
+.Order_Now {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1.2;
+  background-color: rgb(164, 185, 190);
+  border-radius: 3px;
+  left: 45%;
+  top: 5%;
+  height: 10%;
+}
+
+
+.Header {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  z-index: 95;
+}
+
+.Rectangle1 {
+  background-image: url("../img/p.jpg");
+  background-size: cover;
+}
+
+.Layer {
+  background: url("../img/Layer3.png") center center no-repeat;
+  background-size:cover;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 86;
+}
+.prueba{
+  padding: 1em 0;
+}
+.Rectangle2 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 84;
+}
+
+/* nav*/
+.Description {
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height:200px;
+  z-index: 82;
+}
+.titulo2 {
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 5%;
+}
+.Texto2 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(159, 164, 167);
+  line-height: 1.2;
+  width: 60%;
+  margin: 5px auto;
+}
+.pen{
+  margin-top: 5%;
+}
+
+.reducir{
+  margin-top: 2%;
+  max-width: 80%;
+  max-height: 510px;
+}
+/* Section 1*/
+.Slideshow {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  height: 300px;
+  z-index: 77;
+}
+.titulo3 {
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 5%;
+}
+.texto3 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1.2;
+  width: 370px;
+  margin: 20px auto;
+}
+
+.Previous {
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  width: 100%;
+  height: 100px;
+  z-index: 74;
+}
+.Next {
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  width: 100%;
+  height: 100px;
+  z-index: 73;
+}
+.BG {
+  background-image: url("../img/BG.png");
+  position: absolute;
+  left: 0px;
+  top: 700px;
+  width: 100%;
+  height: 699px;
+  z-index: 72;
+}
+
+
+/* section 2*/
+.Pricing {
+  position: absolute;
+  top: 1400px;
+  width: 100%;
+  height: 500px;
+  z-index: 69;
+}
+.titulo4 {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 5%;
+}
+.texto4 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(152, 160, 165);
+  line-height: 1.2;
+  margin-top: 5%;
+  width: 450px;
+  margin: 20px auto;
+}
+
+/*1er cuadro*/
+.Free {
+  border-radius: 3px;
+  background-color: rgb(83, 90, 94);
+  width: 100%;
+  height: 85px;
+}
+.Frees {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(233, 238, 242);
+  line-height: 0.9;
+  text-align: center;
+}
+.campos1 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 3.095;
+  z-index: 64;
+}
+.Rectangle3 {
+  border-radius: 3px;
+  background-color: rgb(83, 90, 94);
+  top: 30%;
+  width: 100%;
+  height: 50px;
+  z-index: 63;
+}
+.BG1 {
+  border-radius: 3px;
+  background-color: rgb(233, 238, 242);
+  width: 100%;
+  height: 100%;
+  z-index: 62;
+}
+.Sign_Up_Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: auto;
+  height: auto;
+  z-index: 61;
+}
+.Sign_Up {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(233, 238, 242);
+  line-height: 2;
+  text-align: center;
+  z-index: 60;
+
+}
+.Rounded1 {
+  border-radius: 3px;
+  background-color: rgb(83, 90, 94);
+  position: absolute;
+  left: 15px;
+  top: 105%;
+  width: 94%;
+  height: 60px;
+  z-index: 59;
+}
+
+/*2do cuadro*/
+.Professional {
+  border-radius: 3px;
+  background-color: rgb(88, 173, 82);
+  width: 100%;
+  height: 85px;
+}
+.Professionale {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(233, 238, 242);
+  line-height: 0;
+  text-align: center;
+}
+.campos2 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 2;
+  z-index: 54;
+}
+.Rectangle4 {
+  border-radius: 3px;
+  background-color: rgb(88, 173, 82);
+  top: 30%;
+  width: 100%;
+  height: 50px;
+  z-index: 53;
+}
+.BG2 {
+  border-radius: 3px;
+  background-color: rgb(223, 235, 223);
+  width: 100%;
+  height: 100%;
+  z-index: 52;
+}
+.Sign_Up_Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3368px;
+  z-index: 51;
+}
+.Buy_Now {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(233, 238, 242);
+  line-height: 2;
+  text-align: center;
+  z-index: 50;
+}
+.Rounded2 {
+  border-radius: 3px;
+  background-color: rgb(88, 173, 82);
+  position: absolute;
+  left: 15px;
+  top: 105%;
+  width: 94%;
+  height: 60px;
+  z-index: 49;
+}
+/*3er cuadro*/
+.Enterprise {
+  border-radius: 3px;
+  background-color: rgb(83, 161, 173);
+  width: 100%;
+  height: 85px;
+}
+.Enterprisee {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  vertical-align: middle;
+  color: rgb(233, 238, 242);
+  line-height: 0.9;
+  text-align: center;
+  z-index: 45;
+}
+.campos3 {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 3.095;
+  z-index: 44;
+}
+.Rectangle5 {
+  border-radius: 3px;
+  background-color: rgb(83, 161, 173);
+  top: 30%;
+  width: 100%;
+  height: 50px;
+  z-index: 43;
+}
+.BG3 {
+  border-radius: 3px;
+  background-color: rgb(222, 233, 235);
+  width: 100%;
+  height: 100%;
+  z-index: 42;
+}
+.Sign_Up_Button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3368px;
+  z-index: 41;
+}
+.Buy_Now2 {
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(233, 238, 242);
+  line-height: 2;
+  text-align: center;
+  z-index: 40;
+}
+.Rounded3 {
+  border-radius: 3px;
+  background-color: rgb(83, 161, 173);
+  position: absolute;
+  left: 15px;
+  top: 105%;
+  width: 94%;
+  height: 60px;
+}
+
+.pie {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(152, 160, 165);
+  line-height: 1.2;
+  text-align: center;
+  top: 70px;
+  width: 450px;
+}
+
+/* 3er Secction*/
+
+.Contact {
+  top: 1700px;
+  width: 100%;
+  height: 550px;
+  z-index: 34;
+}
+
+.Get_in_Touch {
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(241, 241, 241);
+  font-weight: bold;
+  line-height: 1.842;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.Gotany{
+  font-size: 0.5em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(152, 160, 165);
+  line-height: 1.2;
+  top: 20%;
+  z-index: 32;
+}
+
+.Name {
+  left: 0px;
+  top: 0px;
+  width: 100%
+  height: 60px;
+  z-index: 31;
+}
+.Name_ {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  line-height: 1.647;
+  text-align: center;
+  top: 5%;
+  margin: inherit;
+  z-index: 30;
+}
+.Rectangle6 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(233, 238, 242);
+  border-radius: 3px;
+  background-color: rgba(233, 238, 242, 0);
+  top: 5%;
+  width: 20px;
+  height: 40px;
+  z-index: 29;
+}
+.Email {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  z-index: 27;
+}
+.Email_ {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  line-height: 1.647;
+  top: 5%;
+  margin: inherit;
+  z-index: 26;
+}
+.Rectangle7 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(233, 238, 242);
+  border-radius: 3px;
+  background-color: rgba(233, 238, 242, 0);
+  top: 5%;
+  width: 20px;
+  height: 40px;
+  z-index: 25;
+}
+.Message {
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  z-index: 23;
+}
+.Message_ {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  line-height: 1.647;
+  top: 5%;
+  margin: inherit;
+  z-index: 22;
+}
+.Rectangle8 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(233, 238, 242);
+  border-radius: 3px;
+  background-color: rgba(233, 238, 242, 0);
+  top: 5%;
+  width: 20px;
+  height: 40px;
+  z-index: 21;
+}
+.BG8 {
+  background-color: rgb(45, 48, 53);
+  top: 2000px;
+  width: 100%;
+  height: 500px;
+  z-index: 10;
+}
+.Send_Button{
+  left: 0px;
+  top: 0px;
+  width: auto;
+  height: auto;
+  z-index: 19;
+}
+.Send {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(45, 48, 53);
+  font-weight: bold;
+  line-height: 1.556;
+  top: 5%;
+  z-index: 18;
+}
+.Rectangle9 {
+  border-radius: 3px;
+  background-color: rgb(164, 185, 190);
+  position: absolute;
+  top: 5%;
+  width: 20px;
+  height: 40px;
+  z-index: 17;
+}
+.Social_media {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1400px;
+  height: 3368px;
+  z-index: 15;
+}
+/*footer*/
+
+.Footer {
+  position: absolute;
+  left: 0px;
+  top: 2500px;
+  width: 100%;
+  background-color: #eee;
+}
+.desarrollado {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  z-index: 7;
+}
+.navegar {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: rgb(83, 90, 94);
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: right;
+  position: absolute;
+  top: 20%;
+  z-index: 6;
+}
